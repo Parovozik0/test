@@ -3,15 +3,15 @@
 
 int main() {
     int number;
-    cout << "Enter 1 - if you human" << endl << "Enter 2 - if you not human";
     cin << number
     if (number == 1)
     {
     cout << "Hello World!"
     }
-    if (number == 2)
+    if (number == 3)
     {
     cout << "Hello NetherWorld!"
     }
+    cout << "\nGoodbye"
     return 0;
 }
